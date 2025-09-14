@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background:#002339;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#inputthing{
+    height: 50px;
+    width: 450px;
+}
+
+#btn{
+    height: 34px;
+    width: 200px;
+    background:#019f55;
+    display: flex;
+    padding: 6px;
+    gap: 10px;
+    border-radius: 10px;
+}
+#imagess{
+    height: 20px;
+    width: 20px;
+    background:#019f55
+}
+
+#random{
+    font-size: 40px;
+    color:#019f55;
+    border-bottom: 4px solid #019f55;
+}
+
+#generate{
+    color: white;
+}
+
+.inputandimages{
+    display: flex;
+}
+#copyicon{
+    margin-top: 1px;
+    height: 49px;
+    border: none;
+}

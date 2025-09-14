@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 450px;
+    width: 340px;
+    border: solid black ;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    border-radius: 20px;
+}
+
+.submitandsearchbox{
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    height: 50px;
+    width: 320px;
+    gap: 10px;
+}
+
+#inputfeild{
+    margin-left: 20px;
+    height: 40px;
+    width: 240px;
+    border-radius: 20px;
+    border: white;
+}
+
+#buttonfield{
+    border-radius: 100px;
+    border: white;
+    height: 30px;
+    width: 40px;
+    margin-top: 4px;
+}
+
+#imagefeild{
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px
+}
+
+.information{
+    margin-top: 10px;
+    height: 366px;
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.weather_icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.information_about_weather{
+    height: 100px;
+    width: 324px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.detailsofhumidity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 120px;
+    width: 150px;
+}
+
+.humidity_image{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.anotherdetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 120px;
+    width: 150px;
+}
+
+.windspeedimage{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.degree{
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+.city_name{
+    font-size: 20px;
+    margin-left: 128px;
+}
+
+.weather_help{
+    font-size: 15px;
+}
+
+.windspeedpara{
+    font-size: 15px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.information{
+    display: none;
+}

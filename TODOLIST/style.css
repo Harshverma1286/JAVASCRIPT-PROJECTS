@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 3rem;
+}
+
+.top{
+    display: flex;
+    gap: 8px;
+}
+
+#imagelist{
+    height: 20px;
+    width: 20px;
+
+}
+#para{
+    font-size: 20px;
+    color: rgb(24, 24, 118);
+}
+
+#inputfield{
+    height: 40px;
+    width: 240px;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 148, 148);background-color: aliceblue;
+}
+
+.search_box_and_add{
+    margin-top: 20px;
+}
+
+#buttonfield{
+    height: 40px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.QmEN9Ue9Iu2yigLnfhsKiAHaHa&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(https://up.yimg.com/ib/th?id=OIP.E4MzI5DY2UAi9Iv2GVYpIAHaHZ&pid=Api&rs=1&c=1&qlt=95&w=116&h=116);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #edeef0;
+}
+
+
+
+
+
+
+
+
